@@ -2,7 +2,6 @@
 const express = require("express");
 //const mongoose = require("./db/mongodb")
 
-require('dotenv');
 //require('mongoose');
 
 // 2 instanciar aplicacion de express
