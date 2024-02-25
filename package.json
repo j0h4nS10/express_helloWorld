@@ -1,0 +1,19 @@
+{
+  "name": "express_helloworld",
+  "version": "1.0.0",
+  "description": "express hello World",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j0h4nS10/express_helloWorld.git"
+  },
+  "author": "johan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j0h4nS10/express_helloWorld/issues"
+  },
+  "homepage": "https://github.com/j0h4nS10/express_helloWorld#readme"
+}
