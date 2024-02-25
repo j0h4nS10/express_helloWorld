@@ -17,8 +17,7 @@ app.get('/', (req, res) => {
 });
 
 //5 Listener
-//const port = (process.env.PORT) || 8080;
-const port = 8080;
+const port = (process.env.PORT);
 
 app.listen(port, () => {
     console.log('el servidor se esta ejecutando en el puerto ', port);
