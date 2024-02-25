@@ -1,7 +1,7 @@
 // 1 import expres
 const express = require("express");
 //import express = from 'express';
-require('dotenv').config()
+//require('dotenv').config()
 
 // 2 instanciar aplicacion de express
 const app = express();
