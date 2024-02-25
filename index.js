@@ -1,5 +1,6 @@
 // 1 import expres
 const express = require("express");
+//import express = from 'express';
 //const mongoose = require("./db/mongodb")
 
 //require('mongoose');
@@ -22,8 +23,10 @@ app.get('/', (req, res) => {
 
 //5 Listener
 
-const port = process.env.port || 8080;
+const port = parseInt(process.env.PORT) || 8080;
 
 app.listen(port, () => {
     console.log('el servidor se esta ejecutando en el puerto ', port);
 })
+
+
