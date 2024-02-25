@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/j0h4nS10/express_helloWorld/issues"
   },
-  "homepage": "https://github.com/j0h4nS10/express_helloWorld#readme"
+  "homepage": "https://github.com/j0h4nS10/express_helloWorld#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
 }

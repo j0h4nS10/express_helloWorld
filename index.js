@@ -1,19 +1,14 @@
 // 1 import expres
 const express = require("express");
 //import express = from 'express';
-//const mongoose = require("./db/mongodb")
-
-//require('mongoose');
+require('dotenv').config()
 
 // 2 instanciar aplicacion de express
-
 const app = express();
 
 // 3 to do late
 
-
 // 4 enpoints
-
 app.get('/', (req, res) => {
     res.json({
         nombre: "Hello",
@@ -22,7 +17,6 @@ app.get('/', (req, res) => {
 });
 
 //5 Listener
-
 const port = parseInt(process.env.PORT) || 8080;
 
 app.listen(port, () => {
